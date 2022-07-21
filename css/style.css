@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#principal{
+    width: 1024px;
+    margin: auto;
+}
+.hero{
+    height: 50px;
+    background-color: #162028;
+    position: relative;
+    margin-top: 30px;
+}
+.logotipo{
+    margin: 5px 0 0 135px;
+}
+.content-hero{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.content-hero li{
+    list-style: none;
+    display: inline-block;    
+    margin: 0px 15px 0px 0px;
+    padding: 13px;
+}
+.content-hero a{
+    text-decoration: none;
+    color: rgb(119, 119, 147);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 11px;    
+    text-shadow: 2px 2px 2px rgba(87, 87, 112, 0.331);
+    transition: color .3s linear;
+}
+.content-hero a:hover{
+    color: white;
+}
+.content-section{
+    width: 80%;
+    margin: auto;
+}
+.portfolio{
+    overflow: auto;
+}
+.portfolio h1{
+    color: rgb(29, 39, 68);
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+}
+.portfolio p{
+    color: rgb(72, 71, 71);
+    font-size: 16.5px;    
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+.card{
+    float: left;
+    box-sizing: border-box; 
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+.card-1{
+    margin-left: 20px;
+}
+.card p{
+    margin: 10px;
+}
+.card-title{
+    font-size: 16px;    
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.about{
+    background-color: #003d52;
+    height: 500px;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border: 1px solid transparent;
+    margin-top: 50px;
+}
+.about h2{
+    color: white;
+    text-transform: uppercase;    
+    font-weight: normal;
+    margin: 60px 0px 10px 60px;
+}
+.about p{
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 30px 360px 0px 60px;
+}
+.contact address{
+    color: rgba(28, 9, 58, 0.91);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(18, 5, 37, 0.112);
+    margin-top: 50px;
+}
+.map iframe{
+    width: 100%;
+    margin-top: 50px;
+}
+footer{
+    background-color: #0c1318; 
+    color: rgb(119, 119, 147);
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 2px rgba(65, 65, 83, 0.331);
+    padding: 10px;
+    margin-top: 50px;
+}
+
+

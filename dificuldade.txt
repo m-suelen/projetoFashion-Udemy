@@ -1,0 +1,12 @@
+Segundo projeto do Curso feito em HTML e CSS
+
+Nessa página, senti dificuldade em definir os articles e a 
+hierarquia dos níveis de títulos. Procurei priorizar o conteúdo 
+mais relevante. Em CSS, a parte de posicionamento da 
+imagem com o menu de navegação, e no conteúdo são as 
+margens laterais. Defini uma variável global para definir as 
+margens e o padding para zero,  uma div para centralizar 
+tudo e depois reduzir parte do conteúdo para o centro.  
+Na navegação, inseri a propriedade Position para poder alinhar. 
+Na sessão de galeria, usei a propriedade Overflow para o 
+tamanho excedente.
